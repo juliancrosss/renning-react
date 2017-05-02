@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import Main from './Main';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 //import logo from './logo.svg';
 //import './App.css';
 /*
@@ -26,6 +27,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Main />
+        <Footer />
       </div>
     );
   }
